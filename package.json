@@ -1,0 +1,24 @@
+{
+  "name": "chat-spark",
+  "version": "1.0.0",
+  "description": "alerts when found some stuff",
+  "main": "spark.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neverm1ndo/chat-spark.git"
+  },
+  "keywords": [
+    "chat",
+    "log",
+    "node"
+  ],
+  "author": "nmnd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neverm1ndo/chat-spark/issues"
+  },
+  "homepage": "https://github.com/neverm1ndo/chat-spark#readme"
+}

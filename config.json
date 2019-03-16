@@ -1,4 +1,7 @@
 {
-  "path" : "chatlog.txt",
-  "encoding" : "cp1251"
+  "path2" : "C:/Users/nmnd/Documents/GTA San Andreas User Files/CR-MP/GenerationC/chatlog.txt",
+  "path" : "./test.txt",
+  "encoding" : "cp1251",
+  "sound" : "beep.wav",
+  "voice" : "google"
 }

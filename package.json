@@ -1,10 +1,23 @@
 {
   "name": "chat-spark",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "alerts when found some stuff",
   "main": "spark.js",
+  "bin": "bin.js",
   "scripts": {
     "test": "test"
+  },
+  "pkg": {
+    "scripts": [
+      "node_modules/figlet/lib/*.js",
+      "node_modules/figlet/lib/*.js",
+      "node_modules/iconv-lite/*",
+      "node_modules/safer-buffer/*"
+    ],
+    "assets": [
+      "node_modules/figlet/**/*.flf",
+      "config.json"
+    ]
   },
   "repository": {
     "type": "git",
@@ -20,5 +33,10 @@
   "bugs": {
     "url": "https://github.com/neverm1ndo/chat-spark/issues"
   },
-  "homepage": "https://github.com/neverm1ndo/chat-spark#readme"
+  "homepage": "https://github.com/neverm1ndo/chat-spark#readme",
+  "dependencies": {
+    "figlet": "^1.2.1",
+    "iconv-lite": "^0.4.24",
+    "ws": "^6.2.0"
+  }
 }

@@ -26,3 +26,6 @@ Thumbs.db
 
 # Builds
 *.exe
+
+# Test Files
+*.txt
